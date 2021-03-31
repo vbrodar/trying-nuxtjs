@@ -1,0 +1,39 @@
+//color
+$header-background: #d6dbd2;
+$header-text: #2c363f;
+
+//animation
+
+.page-enter-active {
+  animation: bounce-in 0.8s;
+}
+
+.page-leave-active {
+  animation: bounce-out 0.5s;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-out {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
